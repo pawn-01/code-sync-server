@@ -8,7 +8,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {           // web socket server
     cors: {
-         origin: "*"
+         origin: "*",
     },
 }); 
 
